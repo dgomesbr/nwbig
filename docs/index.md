@@ -1,7 +1,7 @@
 ---
 title: Home
 site_description: (Unofficial) Curated list of NWBIG watches.
-ogimage: http://awesome-aws-workshops.com/assets/img/awesomebg-extra.png
+ogimage: http://nwbig.com/assets/img/awesomebg-extra.png
 ogimagealt: RepTime - NWBIG
 ---
 # **NWBIG**
@@ -26,9 +26,9 @@ ogimagealt: RepTime - NWBIG
 
 ## Contributing
 
-Your contributions are always welcome! Please take a look at the [contribution guidelines](https://github.com/dgomesbr/awesome-aws-workshops/blob/master/CONTRIBUTING.md) first.
+Your contributions are always welcome! Please take a look at the [contribution guidelines](https://github.com/dgomesbr/nwbig/blob/master/CONTRIBUTING.md) first.
 
-We will keep pull requests open so you can [vote for them](https://github.com/dgomesbr/awesome-aws-workshops/pulls) by adding :+1: to it.
+We will keep pull requests open so you can [vote for them](https://github.com/dgomesbr/nwbig/pulls) by adding :+1: to it.
 
 ---
 
