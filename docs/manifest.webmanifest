@@ -1,0 +1,23 @@
+{
+  "name": "NWBIG - Your Quick Check on the Best Reps",
+  "short_name": "NWBIG",
+  "description": "Your Quick Check on the Best Reps",
+  "icons": [
+    {
+      "src": "/assets/img/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/img/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#FFA724",
+  "display": "fullscreen",
+  "scope": "/",
+  "lang": "en-US",
+  "theme_color": "#FFA724"
+}

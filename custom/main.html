@@ -1,0 +1,163 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+    <!-- Google Tag Manager -->
+    <script data-ad-client="ca-pub-1923834486996267" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- End Google Tag Manager -->
+
+  <meta property="og:url" content="://nwbig.co">
+  {% if page and page.meta and page.meta.title %}
+    <meta property="og:title" content="{{ page.meta.title }}">
+  {% elif page and page.title and not page.is_homepage %}
+    <meta property="og:title" content="{{ page.title }} - {{ config.site_name }}">
+  {% else %}
+    <meta property="og:title" content="{{ config.site_name }}">
+  {% endif %}
+  {% if page and page.meta.site_description%}
+  <meta property="og:description" content="{{ page.meta.site_description }}">
+  <meta property="description" content="{{ page.meta.site_description }}">
+  {% endif %}
+  {% if page and page.meta.ogimage%}
+  <meta property="og:image" content="{{ page.meta.ogimage }}">
+  {% endif %}
+  {% if page and page.meta.ogimagealt%}
+  <meta property="og:image:alt" content="{{ page.meta.ogimagealt }}">
+  <meta property="og:image:type" content="image/png">
+  {% endif %}
+  
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dgomesbr">
+  <meta name="twitter:creator" content="@dgomesbr">
+  {% if page and page.meta and page.meta.title %}
+    <meta property="twitter:title" content="{{ page.meta.title }}">
+  {% elif page and page.title and not page.is_homepage %}
+    <meta property="twitter:title" content="{{ page.title }} - {{ config.site_name }}">
+  {% else %}
+    <meta property="twitter:title" content="{{ config.site_name }}">
+  {% endif %}
+  {% if page and page.meta.site_description%}
+  <meta name="twitter:description" content="{{ page.meta.site_description }}">
+  {% endif %}
+  {% if page and page.meta.ogimage%}
+  <meta name="twitter:image" content="{{ page.meta.ogimage }}">
+  {% endif %}
+  {% if page and page.meta.ogimagealt%}
+  <meta name="twitter:image:alt" content="{{ page.meta.ogimagealt }}">
+  {% endif %}
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+  <!-- Pixel Code for https://app.analyzz.com/ -->
+  <script async src="https://app.analyzz.com/pixel/2SV5cViK04diKtw7"></script>
+  <!-- END Pixel Code -->
+{% endblock %}
+
+
+{% block footer %}
+<footer class="md-footer">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        <div class="md-footer-copyright__highlight">
+          This is NOT an related to official brands, and information here is
+          merely informative.<br />This work is licensed under a
+          <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license"
+            >Creative Commons Attribution-ShareAlike 4.0 International
+            License</a
+          >.
+        </div>
+      </div>
+      <div class="md-footer-social">
+        <a
+          href="https://github.com/dgomesbr"
+          target="_blank"
+          rel="noopener"
+          title="github.com"
+          class="md-footer-social__link"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512">
+            <path
+              d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"
+            ></path>
+          </svg>
+        </a>
+        <a
+          href="https://www.reddit.com/"
+          target="_blank"
+          rel="noopener"
+          title="www.reddit.com"
+          class="md-footer-social__link"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path
+              d="M201.5 305.5c-13.8 0-24.9-11.1-24.9-24.6 0-13.8 11.1-24.9 24.9-24.9 13.6 0 24.6 11.1 24.6 24.9 0 13.6-11.1 24.6-24.6 24.6zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-132.3-41.2c-9.4 0-17.7 3.9-23.8 10-22.4-15.5-52.6-25.5-86.1-26.6l17.4-78.3 55.4 12.5c0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.3 24.9-24.9s-11.1-24.9-24.9-24.9c-9.7 0-18 5.8-22.1 13.8l-61.2-13.6c-3-.8-6.1 1.4-6.9 4.4l-19.1 86.4c-33.2 1.4-63.1 11.3-85.5 26.8-6.1-6.4-14.7-10.2-24.1-10.2-34.9 0-46.3 46.9-14.4 62.8-1.1 5-1.7 10.2-1.7 15.5 0 52.6 59.2 95.2 132 95.2 73.1 0 132.3-42.6 132.3-95.2 0-5.3-.6-10.8-1.9-15.8 31.3-16 19.8-62.5-14.9-62.5zM302.8 331c-18.2 18.2-76.1 17.9-93.6 0-2.2-2.2-6.1-2.2-8.3 0-2.5 2.5-2.5 6.4 0 8.6 22.8 22.8 87.3 22.8 110.2 0 2.5-2.2 2.5-6.1 0-8.6-2.2-2.2-6.1-2.2-8.3 0zm7.7-75c-13.6 0-24.6 11.1-24.6 24.9 0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.1 24.9-24.6 0-13.8-11-24.9-24.9-24.9z"
+            ></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=G-ZN1Q3QKGDD"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "G-ZN1Q3QKGDD");
+  window.onload = function () {
+    var e = document.documentElement || document.body,
+      t = function (e, t, n) {
+        if (
+          null !==
+            (t = (e = e || Event).target || e.srcElement).getAttribute(
+              "href"
+            ) &&
+          "#" !== t.getAttribute("href").charAt(0) &&
+          0 !== t.getAttribute("href").indexOf("../") &&
+          "a" == String(t.nodeName).toLowerCase()
+        ) {
+          e.preventDefault && e.preventDefault();
+          var r = "?";
+          return (
+            0 === t.href.indexOf("?") && (r = "&"),
+            (window.location =
+              t.href +
+              r +
+              "source=nwbig&utm_source=nwbig&utm_medium=listinglink"),
+            (e.returnValue = !1)
+          );
+        }
+      };
+    e.addEventListener
+      ? e.addEventListener("click", t, !0)
+      : e.attachEvent("onclick", t);
+  };
+</script>
+<!-- Google Tag Manager (noscript) -->
+<noscript
+  ><iframe
+    src="https://www.googletagmanager.com/ns.html?id=GTM-5X3C6QV"
+    height="0"
+    width="0"
+    style="display: none; visibility: hidden"
+  ></iframe
+></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+{% endblock %}

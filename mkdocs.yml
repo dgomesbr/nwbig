@@ -1,0 +1,80 @@
+site_name: NW Big
+repo_name: dgomesbr/nwbig
+repo_url: https://github.com/dgomesbr/nwbig
+edit_uri: "" # disable edit icon from theme
+site_author: \@dgomesbr
+copyright: This is NOT an related to official brands, and information here is merely informative.<br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
+extra_css:
+  - assets/css/extra.css
+theme:
+  name: material
+  language: en
+  custom_dir: custom/
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - toc.integrate
+  palette:
+    primary: black
+    accent: pink
+  favicon: assets/img/favicon.ico
+  icon:
+    logo: material/send-clock-outline
+    repo: material/git
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/dgomesbr
+    - icon: fontawesome/brands/reddit
+      link: https://www.reddit.com/    
+  manifest: manifest.webmanifest
+markdown_extensions:
+  - extra
+  - admonition
+  - footnotes
+  - meta
+  - codehilite:
+      guess_lang: true
+      linenums: true
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.caret
+  - pymdownx.tilde
+  - pymdownx.mark
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed
+  - pymdownx.magiclink
+  - markdown_blockdiag:
+      format: svg
+  - markdown_include.include
+  - mdx_truly_sane_lists
+plugins:
+  - search
+  - minify:
+      minify_html: true
+  # - htmlproofer
+  - awesome-pages
+  #- pdf-export:
+  #    verbose: false
+  #    media_type: print
+  #    combined: true
+  #    combined_output_path: ./AWSome-aws-workshops.pdf
