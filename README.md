@@ -1,7 +1,7 @@
 ---
 title: Home
 site_description: (Unofficial) Curated list of NWBIG watches.
-ogimage: https://nwbig.com/assets/img/awesomebg-extra.png
+ogimage: https://nwbig.co/assets/img/awesomebg-extra.png
 ogimagealt: RepTime - NWBIG
 ---
 
