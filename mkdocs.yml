@@ -16,7 +16,7 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.sections
+    #- navigation.sections
     - navigation.expand
     - navigation.indexes
     - navigation.top
@@ -42,7 +42,9 @@ markdown_extensions:
       guess_lang: true
       linenums: true
   - toc:
-      permalink: true
+      #slugify: !!python/name:pymdownx.slugs.gfm
+      permalink: "#"
+      separator: "-"
       toc_depth: 3
   - pymdownx.caret
   - pymdownx.tilde
@@ -67,6 +69,7 @@ markdown_extensions:
   - mdx_truly_sane_lists
 plugins:
   - search
+  - macros
   - tags:
       tags_folder: Blog/tags/
   - minify:

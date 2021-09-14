@@ -24,3 +24,18 @@ Although caliber 3120 is a very pretty movement to look at, AP chose to close th
 ### JF 10
 
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/g9OocGq"  ><a href="//imgur.com/a/g9OocGq">15703 V10 - 1</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
+<span id="tags-list"></span>
+<script language="javascript">
+    var tags = "{{ page.meta.tags }}".replace("[","").replace("]","").split(",");
+    var tagEl = document.getElementById("tags-list");
+
+    var tag_footer = "<b>Tags: </b>"
+    if (tags !== "" && tags !== "undefined"){
+        for(var i=0; i < tags.length; i++){
+            let v = tags[i].replaceAll("'","").trim();
+            tag_footer += "<a href='/tags.html#" + v + "'>" + v + "</a> ";
+        }
+    }
+    tagEl.innerHTML = tag_footer;   
+</script>
