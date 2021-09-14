@@ -1,7 +1,7 @@
 ---
 title: Home
 site_description: (Unofficial) Curated list of NWBIG watches.
-ogimage: https://nwbig.com/assets/img/awesomebg-extra.png
+ogimage: https://nwbig.co/assets/img/awesomebg-extra.png
 ogimagealt: RepTime - NWBIG
 ---
 
@@ -16,16 +16,6 @@ ogimagealt: RepTime - NWBIG
     This site contains links to other Internet sites. Such links are not endorsements of any products or services in such sites, and no information in such site has been endorsed or approved by us.
     The idea is to provide an easy central repository, in a collaborative way. Brand names and/or other referenced herein are either trademarks or registered trademarks of respective owners. 
     Other product and company names mentioned herein may be trademarks of their respective owners.
-
-<!-- top-aws-workshops -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-1923834486996267"
-     data-ad-slot="7001411130"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
----
 
 ## Contributing
 
