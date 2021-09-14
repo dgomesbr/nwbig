@@ -11,9 +11,11 @@ ogimagealt: RepTime - NWBIG
 ![last-updated](https://img.shields.io/github/last-commit/dgomesbr/nwbig?color=CB006D&label=last%20updated)
 ![activity](https://img.shields.io/github/commit-activity/m/dgomesbr/nwbig)
 
-_**(Unofficial)**_ Curated list of awesome workshops found around in the internet.
-As we all have been there, finding that workshop that you have just attended shouldn't be hard.
-The idea is to provide an easy central repository, in a collaborative way.
+!!! Warning "Disclaimer"
+    _**(Unofficial)**_ A Curated list of awesome NWBIG found around on the internet.  
+    This site contains links to other Internet sites. Such links are not endorsements of any products or services in such sites, and no information in such site has been endorsed or approved by us.
+    The idea is to provide an easy central repository, in a collaborative way. Brand names and/or other referenced herein are either trademarks or registered trademarks of respective owners. 
+    Other product and company names mentioned herein may be trademarks of their respective owners.
 
 <!-- top-aws-workshops -->
 <ins class="adsbygoogle"

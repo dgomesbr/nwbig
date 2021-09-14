@@ -1,8 +1,8 @@
-# What is this workshop about
+# What is this pull request about
 
 Describe link contents.
 
-## Describe the services involved
+## Describe the models/makes involved
 
 Enumerate comparisons.
 
