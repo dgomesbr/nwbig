@@ -1,5 +1,5 @@
 ---
-Title: Audemars Piguet Royal Oak Offshore Diver 15703
+title: Audemars Piguet Royal Oak Offshore Diver 15703
 description: Audemars Piguet Royal Oak Offshore Diver 15703, JF 10
 disqus: nwbig
 tags:
@@ -9,6 +9,7 @@ tags:
 ---
 
 # Audemars Piguet Royal Oak Offshore Diver 15703
+
 
 This Offshore Diver was introduced in 2010 during the SIHH in Geneva.
 Like all other Offshore models, the 15703ST has these typical rubber accents, like the crowns and the thick rubber gasket between the Royal Oak case and the octagonal bezel. Additionally, this Offshore Diver comes with a rubber strap only. AP mastered to get a rubber strap that feels comfortable enough without being too soft. The rubber accents fit the black ‘méga tapisserie‘ dial perfectly and luckily AP didn’t choose to use bright colors this time to spice things up. It is a plain black diver’s watch that could be interpreted as an understatement time piece by AP.
@@ -24,8 +25,7 @@ Although caliber 3120 is a very pretty movement to look at, AP chose to close th
 ### JF 10
 
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/g9OocGq"  ><a href="//imgur.com/a/g9OocGq">15703 V10 - 1</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-
-<span id="tags-list"></span>
+<span id="tags-list" style="margin-top:-25px"></span>
 <script language="javascript">
     var tags = "{{ page.meta.tags }}".replace("[","").replace("]","").split(",");
     var tagEl = document.getElementById("tags-list");

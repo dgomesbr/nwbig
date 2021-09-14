@@ -19,6 +19,8 @@ ogimagealt: RepTime - NWBIG
 
 ## Contributing
 
+If you would like to add a model, brand, or there are errors, [open a request Github](https://github.com/dgomesbr/nwbig/). We have also setup a Roadmap request [tool using Kampsite](https://nwbig.kampsite.co/). Create your own feature request, or vote for the existing ones.
+
 Your contributions are always welcome! Please take a look at the [contribution guidelines](https://github.com/dgomesbr/nwbig/blob/master/CONTRIBUTING.md) first.
 
 We will keep pull requests open so you can [vote for them](https://github.com/dgomesbr/nwbig/pulls) by adding :+1: to it.

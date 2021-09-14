@@ -2,8 +2,14 @@
 description: >
   How we build the portal and are looking to get the community around
 disqus: nwbig
+hide:
+  - toc
 search:
   exclude: true
+navigation:
+  sections: false
+  expand: false
+
 ---
 
 # Hey Community 🎉
