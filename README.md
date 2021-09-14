@@ -17,16 +17,6 @@ ogimagealt: RepTime - NWBIG
     The idea is to provide an easy central repository, in a collaborative way. Brand names and/or other referenced herein are either trademarks or registered trademarks of respective owners. 
     Other product and company names mentioned herein may be trademarks of their respective owners.
 
-<!-- top-aws-workshops -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-1923834486996267"
-     data-ad-slot="7001411130"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
----
-
 ## Contributing
 
 Your contributions are always welcome! Please take a look at the [contribution guidelines](https://github.com/dgomesbr/nwbig/blob/master/CONTRIBUTING.md) first.
