@@ -30,10 +30,8 @@ theme:
     repo: material/git
 extra:
   social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/dgomesbr
     - icon: fontawesome/brands/reddit
-      link: https://www.reddit.com/    
+      link: https://www.reddit.com/r/RepTime/   
   manifest: manifest.webmanifest
 markdown_extensions:
   - extra

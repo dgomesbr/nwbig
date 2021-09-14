@@ -1,7 +1,7 @@
 ---
 title: Home
 site_description: (Unofficial) Curated list of NWBIG watches.
-ogimage: http://nwbig.com/assets/img/awesomebg-extra.png
+ogimage: https://nwbig.com/assets/img/awesomebg-extra.png
 ogimagealt: RepTime - NWBIG
 ---
 
@@ -39,8 +39,6 @@ CONTENT
 
 ---
 
-Questions, sugestions, and new content?
-
-[![follow-social](https://img.shields.io/twitter/follow/dgomesbr?style=social)](https://twitter.com/dgomesbr) <br/>
+Questions, suggestions, and new content?
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F01P3MA)
