@@ -1,5 +1,6 @@
 ###### Requirements without Version Specifiers ######`
 mkdocs
+mkdocs-tags
 mkdocs-material
 mkdocs-minify-plugin
 mkdocs-awesome-pages-plugin
