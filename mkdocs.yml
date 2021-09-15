@@ -32,7 +32,7 @@ extra:
   social:
     - icon: fontawesome/brands/reddit
       link: https://www.reddit.com/r/RepTime/   
-  manifest: manifest.webmanifest
+  manifest: /manifest.webmanifest
 markdown_extensions:
   - extra
   - admonition

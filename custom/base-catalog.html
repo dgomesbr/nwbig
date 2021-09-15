@@ -1,0 +1,31 @@
+{% extends "main.html" %}
+
+
+{% block content %}
+
+    {%- for t in page.meta.tags %}
+        {% set compTag = t | lower %}    
+        {% if compTag == 'discontinued' %}
+            <div class="admonition info"> <p class="admonition-title">Info</p> <p>This version is currently discontinued. You might be lucky on M2M.</p> </div>
+        {%- endif %}
+    {%- endfor %}
+
+    {{ super() }}
+
+
+    <br />
+    <span id="tags-list" style="margin-top:-25px"></span>
+    <script language="javascript">
+        var tags = "{{ page.meta.tags }}".replace("[","").replace("]","").split(",");
+        var tagEl = document.getElementById("tags-list");
+
+        var tag_footer = "<b>Tags: </b>"
+        if (tags !== "" && tags !== "undefined"){
+            for(var i=0; i < tags.length; i++){
+                let v = tags[i].replaceAll("'","").trim().toLowerCase().replace(/\w/, firstLetter => firstLetter.toUpperCase());;
+                tag_footer += "<a href='/tags.html#" + v + "'>" + v + "</a> ";
+            }
+        }
+        tagEl.innerHTML = tag_footer;   
+    </script>
+{% endblock %}

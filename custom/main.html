@@ -1,62 +1,74 @@
-{% extends "base.html" %}
+{% extends "base.html" %} 
 
 {% block extrahead %}
-    <!-- Google Tag Manager -->
-    <script data-ad-client="ca-pub-1923834486996267" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Google Tag Manager -->
+<script
+  data-ad-client="ca-pub-1923834486996267"
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>
 
-    <!-- End Google Tag Manager -->
+<!-- End Google Tag Manager -->
 
-  <meta property="og:url" content="://nwbig.co">
-  {% if page and page.meta and page.meta.title %}
-    <meta property="og:title" content="{{ page.meta.title }}">
-  {% elif page and page.title and not page.is_homepage %}
-    <meta property="og:title" content="{{ page.title }} - {{ config.site_name }}">
-  {% else %}
-    <meta property="og:title" content="{{ config.site_name }}">
-  {% endif %}
-  {% if page and page.meta.site_description%}
-  <meta property="og:description" content="{{ page.meta.site_description }}">
-  <meta property="description" content="{{ page.meta.site_description }}">
-  {% endif %}
-  {% if page and page.meta.ogimage%}
-  <meta property="og:image" content="{{ page.meta.ogimage }}">
-  {% endif %}
-  {% if page and page.meta.ogimagealt%}
-  <meta property="og:image:alt" content="{{ page.meta.ogimagealt }}">
-  <meta property="og:image:type" content="image/png">
-  {% endif %}
-  
-  <meta property="og:type" content="website">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@dgomesbr">
-  <meta name="twitter:creator" content="@dgomesbr">
-  {% if page and page.meta and page.meta.title %}
-    <meta property="twitter:title" content="{{ page.meta.title }}">
-  {% elif page and page.title and not page.is_homepage %}
-    <meta property="twitter:title" content="{{ page.title }} - {{ config.site_name }}">
-  {% else %}
-    <meta property="twitter:title" content="{{ config.site_name }}">
-  {% endif %}
-  {% if page and page.meta.site_description%}
-  <meta name="twitter:description" content="{{ page.meta.site_description }}">
-  {% endif %}
-  {% if page and page.meta.ogimage%}
-  <meta name="twitter:image" content="{{ page.meta.ogimage }}">
-  {% endif %}
-  {% if page and page.meta.ogimagealt%}
-  <meta name="twitter:image:alt" content="{{ page.meta.ogimagealt }}">
-  {% endif %}
+<meta property="og:url" content="://nwbig.co" />
+{% if page and page.meta and page.meta.title %}
+<meta property="og:title" content="{{ page.meta.title }}" />
+{% elif page and page.title and not page.is_homepage %}
+<meta property="og:title" content="{{ page.title }} - {{ config.site_name }}" />
+{% else %}
+<meta property="og:title" content="{{ config.site_name }}" />
+{% endif %} {% if page and page.meta.site_description%}
+<meta property="og:description" content="{{ page.meta.site_description }}" />
+<meta property="description" content="{{ page.meta.site_description }}" />
+{% endif %} {% if page and page.meta.ogimage%}
+<meta property="og:image" content="{{ page.meta.ogimage }}" />
+{% endif %} {% if page and page.meta.ogimagealt%}
+<meta property="og:image:alt" content="{{ page.meta.ogimagealt }}" />
+<meta property="og:image:type" content="image/png" />
+{% endif %}
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
-  <!-- Pixel Code for https://app.analyzz.com/ -->
-  <script async src="https://app.analyzz.com/pixel/Up8QfxtSxDZRTV00"></script>
-  <!-- END Pixel Code -->
-{% endblock %}
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@dgomesbr" />
+<meta name="twitter:creator" content="@dgomesbr" />
+{% if page and page.meta and page.meta.title %}
+<meta property="twitter:title" content="{{ page.meta.title }}" />
+{% elif page and page.title and not page.is_homepage %}
+<meta
+  property="twitter:title"
+  content="{{ page.title }} - {{ config.site_name }}"
+/>
+{% else %}
+<meta property="twitter:title" content="{{ config.site_name }}" />
+{% endif %} {% if page and page.meta.site_description%}
+<meta name="twitter:description" content="{{ page.meta.site_description }}" />
+{% endif %} {% if page and page.meta.ogimage%}
+<meta name="twitter:image" content="{{ page.meta.ogimage }}" />
+{% endif %} {% if page and page.meta.ogimagealt%}
+<meta name="twitter:image:alt" content="{{ page.meta.ogimagealt }}" />
+{% endif %}
 
-
-{% block footer %}
+<link
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="/assets/img/apple-touch-icon.png"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="32x32"
+  href="/assets/img/favicon-32x32.png"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="16x16"
+  href="/assets/img/favicon-16x16.png"
+/>
+<!-- Pixel Code for https://app.analyzz.com/ -->
+<script async src="https://app.analyzz.com/pixel/Up8QfxtSxDZRTV00"></script>
+<!-- END Pixel Code -->
+{% endblock %} {% block footer %}
 <footer class="md-footer">
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -111,8 +123,11 @@
             ) &&
           "#" !== t.getAttribute("href").charAt(0) &&
           0 !== t.getAttribute("href").indexOf("../") &&
+          0 === t.getAttribute("href").indexOf("nwbig.co") &&
+          0 === t.getAttribute("href").indexOf("127.0.0.1") &&
           "a" == String(t.nodeName).toLowerCase()
         ) {
+          
           e.preventDefault && e.preventDefault();
           var r = "?";
           return (
