@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	“Watch Catalog”的评论	</title>
+	<atom:link href="https://nwbig.co/zh/comments/feed/" rel="self" type="application/rss+xml" />
+	<link href="">https://nwbig.co/zh</link>
+	<description>Not Worth Buying in Gen</description>
+	<lastbuilddate>Mon, 27 Sep 2021 03:20:46 +0000</lastbuilddate>
+	<sy:updateperiod>
+	hourly	</sy:updateperiod>
+	<sy:updatefrequency>
+	1	</sy:updatefrequency>
+	<generator>https://wordpress.org/?v=5.8.1</generator>
+</channel>
+</rss>
